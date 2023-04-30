@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAPERED COFFEE</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <!-- <link rel="stylesheet" href="fontello-71124696/fontello-71124696/css/fontello.css"> -->
+  <link rel="stylesheet" href="css/colorbox.css">
+ 
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/load.js"></script>
+  <script src="js/jquery.colorbox.js"></script>
+  <script>
+   
+  </script>
+  <style>
+  
+   
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <button class="hamburger">&#9776;</button>
+  
+    <h1><a href="index.html"><img src="img/taper-logo.png" alt="logo"></a></h1>
+    
+    
+  </header>
+  <div class="bottomNav">
+    <ul>
+      <li><a href="#" class="current" onclick="return false;"><i class="xi-log-in"></i></a></li>
+      <li><a class="map" href="location.html" target="_blank"><i class="xi-map-o"></i></a></li>
+      <li><a href="service.html" ><i class="xi-border-color"></i></a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a href="#">Service</a></li>
+    </ul>
+  </div>
+
+
+  <nav class="menu">
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="Location.html">Store</a></li>
+        <li><a href="brand.html">Brand</a></li>
+      </ul>   
+  </nav>
+
+
+  <!-- 모바일 화면-->
+  <div id="one">
+    <div id="image">
+      <ul class="cf">
+        <li><img src="img/taper1.png" alt="매장사진1"></li>
+        <li><img src="img/taper3.png" alt="매장사진2"></li>
+      </ul>
+    </div>
+
+    <div id="biglogo">
+      <ul>
+        <li><img src="img/taper-logo.png" alt="테이퍼드커피로고"></li>
+        <li>seriously good coffee & bread</li>
+        <li><button type="button">Contact us</button></li>
+        <li class="day">TAPERED COFFEE WILL MAKE YOUR DAY
+          <br>A SUPER-DUPER DAY : &#41;</li>
+      </ul>
+    </div>
+</div>
+
+<!-- 태블릿 화면 -->
+<section id="two">
+  <h2><img src="img/taper-logo.png" alt="테이퍼드커피로고"></h2>
+  <div id="coffee">
+    <ul>
+      <li>seriously good coffee & bread</li>
+      <li><button type="button">Contact us</button></li>
+    </ul>
+  </div>
+  <div id="photo">
+    <ul class="cf">
+      <li><img src="img/taper1.png" alt="매장사진1"></li>
+      <li><img src="img/taper3.png" alt="매장사진2"></li>
+    </ul>
+      <p>TAPERED COFFEE WILL MAKE YOUR DAY
+        <br>A SUPER-DUPER DAY : &#41;</p>
+    
+  </div>
+</section>
+
+<script>
+  $(function(){
+    $('#gallery .photo li a').colorbox({width : '90%'});
+
+  });
+</script>
+
+<section id="gallery">
+  <i class="xi-color-helper"></i>
+  <h2>Gallery</h2>
+  <!-- 모달 적용하면 좋을듯 -->
+  <ul class="photo">
+    <li><a href="img/taper4.png" ><img src="img/taper4.png" alt="갤러리사진1"></a></li>
+    <li><a href="img/taper2.png"><img src="img/taper2.png" alt="갤러리사진2"></a></li>
+    <li><a href="img/taper5.png"><img src="img/taper5.png" alt="갤러리사진3"></a></li>
+    <li><a href="img/taper6.png"><img src="img/taper6.png" alt="갤러리사진4"></a></li>
+    <li><a href="img/taper7.png"><img src="img/taper7.png" alt="갤러리사진5"></a></li>
+    <li><a href="img/taper8.png"><img src="img/taper8.png" alt="갤러리사진6"></a></li>
+    <li><button type="button">&gt; &nbsp;More </button></li>
+  </ul>
+</section>
+
+<section id="contact">
+  <i class="xi-color-helper"></i>
+  <h2>Contact us</h2>
+  <ul class="cf">
+    <li><a href="contactus.html" class="selec"><i class="xi-message-o"></i><span>contact us</span></a></li>
+    <li><a href="contactus.html"><i class="xi-users-o"></i><span>recruit</span></a></li>
+    <li><a href="contactus.html"><i class="xi-gift-o"></i><span>catering</span></a></li>
+  </ul>
+</section>
+
+<section id="cafeloca">
+  <i class="xi-color-helper"></i>
+  <h2>Cafe Location</h2>
+  <ul class="out">
+    <li><img src="img/taper18.png" alt="매장사진"></li>
+    <li>
+      <ul class="in">
+        <li>1st&#46; Oksu 옥수</li>
+        <li>2nd&#46; Deungchon 등촌</li>
+        <li>3rd&#46; Seonjeongneung 선정릉</li>
+        <li>4th&#46; Mapo (taperedcoffee stand) 마포</li>
+        <li>5th&#46; Heukseok 흑석</li>
+      </ul>
+    </li>
+  
+  </ul>
+</section>  
+
+<footer>
+  <div id="footer"><a href="https://www.instagram.com/taperedcoffee/"
+    target="_blank">photo by TAPERED COFFEE INSTAGRAM</a></div>
+</footer>
+<script>
+  var lastScrollTop = 0;
+  var delta = 5; //양수값을 주면 일단은 적용 다 되는듯
+  var fixBox = document.querySelector('.bottomNav');
+  var fixBoxHeight = fixBox.offsetHeight;
+  var didScroll;
+
+  window.onscroll = function(e) {
+      didScroll = true; //스크롤을 감지, true: 스크롤이 되고있다는 것
+  };
+
+  setInterval(function(){
+      if(didScroll){
+          hasScrolled();
+          didScroll = false; //부하를 막기 위해 넣어줌
+      }
+   }, 250); //0.25초마다 스크롤이 되냐 안되냐를 감지하고
+
+   function hasScrolled(){
+      var nowScrollTop = window.scrollY; //순수 자바스크립트, 세로 스크롤 한 길이
+         if(Math.abs(lastScrollTop - nowScrollTop) <= delta){
+              return; //델타보다 작으면 멈추도록
+         }
+         if(nowScrollTop > lastScrollTop && nowScrollTop > fixBoxHeight){
+                 fixBox.classList.remove('show'); //숨어지는 부분이 이 부분
+         }else{ //else if 를 하면 윗줄의 그냥 반대라는 뜻이어서, 결과가 안나옴
+          //위의 if에 대한 else 이고, else이면 안에 if를 또 비교한느 것
+           if(nowScrollTop + window.innerHeight < document.body.offsetHeight){
+                 fixBox.classList.add('show'); //클래스를 붙였다 뗐다 하는 것
+           }
+        }
+                 lastScrollTop = nowScrollTop;
+   }
+
+   /*
+clientHeight : 요소의 내부 높이. 패딩 값은 포함되며, 스크롤바, 테두리, 마진은 제외됨.
+offsetHeight : 요소의 높이. 패딩, 스크롤 바, 테두리(Border)가 포함딤. 마진은 제외됨.
+scrollHeight  : 요소에 들어있는 컨텐츠의 전체 높이. 패딩과 테두리가 포함딤. 마진은 제외됨.
+   */
+
+  </script>
+</body>
+</html>
