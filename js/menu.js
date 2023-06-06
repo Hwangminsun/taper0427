@@ -23,13 +23,28 @@ $(function(){
     //모바일 끝
     
     // 퀵메뉴
-    $("p.quick").on("click",function(){
-        $("html, body").animate({
-            scrollTop: 0
-        }, "slow")
-        return false
-    });
+    // $("p.quick").on("click",function(){
+    //     $("html, body").animate({
+    //         scrollTop: 0
+    //     }, "slow")
+    //     return false
+    // });
 
+    // Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.go-top').fadeIn(200);
+				} else {
+					$('.go-top').fadeOut(200);
+				}
+			});
+			
+			// Animate the scroll to top
+			$('.go-top').click(function(event) {
+				event.preventDefault();
+				
+				$('html, body').animate({scrollTop: 0}, 300);
+			})
     });
 
    
