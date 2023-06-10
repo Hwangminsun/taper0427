@@ -77,11 +77,17 @@ $(function() {
       offset: '75%'
     });
 
-    $(".ab6").waypoint(function() {
-      $(".ab6").addClass('animated fadeInLeft');
+    $(".ab7").waypoint(function() {
+      $(".ab7").addClass('animated fadeIn');
     }, {
       offset: '75%'
     });
+
+    // $(".ab6").waypoint(function() {
+    //   $(".ab6").addClass('animated fadeInLeft');
+    // }, {
+    //   offset: '75%'
+    // });
  //모바일 wp 끝
 
 });

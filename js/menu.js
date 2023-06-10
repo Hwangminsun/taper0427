@@ -30,22 +30,33 @@ $(function(){
     //     return false
     // });
 
-    // Show or hide the sticky footer button
-			$(window).scroll(function() {
-				if ($(this).scrollTop() > 200) {
-					$('.go-top').fadeIn(200);
-				} else {
-					$('.go-top').fadeOut(200);
-				}
-			});
-			
-			// Animate the scroll to top
-			$('.go-top').click(function(event) {
-				event.preventDefault();
-				
-				$('html, body').animate({scrollTop: 0}, 300);
-			})
-    });
+  	// top 아이콘 부드럽게 따라오기 
+// const top = parseInt($("aside").css("top"));
+// $(window).on("scroll", function () {
+
+//     const dis = $(window).scrollTop();
+//     $("aside").stop().animate({
+//         top: dis + top + "px"
+//     }, 1100);
+// });
+
+  // Animate the scroll to top
+  $('aside').click(function() {
+        
+    $('html, body').animate({scrollTop: 0}, 500);
+    
+  });
+
+  $('aside').hide();
+  // ===== Scroll to Top visible ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 2900) {        // If page is scrolled more than 50px
+        $('aside').fadeIn();    // Fade in the arrow
+    } else {
+        $('aside').fadeOut();   // Else fade out the arrow
+    }
+});
+  });
 
    
 
