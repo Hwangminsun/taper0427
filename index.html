@@ -24,8 +24,10 @@
 </head>
 <body>
   <div id="skip-menu">
-    <a href="#menu_wrap">메뉴 바로가기</a>
-    <a href="#section">콘텐츠 바로가기</a>
+    <a href="#menu_wrap">&#187; 메뉴 바로가기</a>
+    <a href="#one">&#187; 내용 바로가기 (모바일)</a> <!-- 모바일 -->
+    <a href="#two">&#187; 내용 바로가기 (태블릿,PC용)</a> <!-- 태블릿, pc -->
+    
     </div>
 
   <header class="cf">
@@ -39,12 +41,12 @@
     <h1><a href="index.html"><img src="img/taper-logo.png" alt="logo"></a></h1>
     <!-- 태블릿, pc 버전 사용 -->
     <ul class="right">
-        <li><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+        <li><a href="#" onclick="return false;"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
         <li><a href="#" onclick="return false;">Login</a></li>
-        <li><a href="location.html" target="_blank"><i class="fa-solid fa-map"></i></a></li>
-        <li><a href="#" onclick="return false;">Location</a></li>
-        <li><a href="#"><i class="fa-solid fa-file-pen"></i></a></li>
-        <li><a href="#" onclick="return false;">Service</a></li>
+        <li><a href="#cafe_resize"><i class="fa-solid fa-map"></i></a></li>
+        <li><a href="#cafe_resize">Location</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-file-pen"></i></a></li>
+        <li><a href="#contact" onclick="return false;">Service</a></li>
     </ul>
   </header>
 
@@ -53,7 +55,7 @@
     <ul>
       <li><a href="#" class="current" onclick="return false;">
         <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-      <li><a class="map" href="javascript:void(0)">
+      <li><a class="map" href="#cafeloca">
         <i class="fa-solid fa-map"></i></a></li>
       <li><a href="javascript:void(0)" ><i class="fa-solid fa-file-pen"></i></a></li>
       <li><a href="login_form.php">Login</a></li>
@@ -64,11 +66,15 @@
 
   <nav id="menu-wrap"> <!--메뉴 전체-->
       <ul class="menu">
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="Location.html">Store</a></li>
-        <li><a href="brand.html">Brand</a></li>
+        <li><a href="#" onclick="return false;">Menu</a></li>
+        <li><a href="#" onclick="return false;">Store</a></li>
+        <li><a href="#" onclick="return false;">Brand</a></li>
       </ul>   
   </nav>
+
+  <aside>
+    <div class="go-top"></div>
+  </aside>
 
   <!-- 모바일 화면-->
   <section id="one">
@@ -87,7 +93,7 @@
       <ul>
         <li class="ab2"><img src="img/taper-logo.png" alt="테이퍼드커피로고"></li>
         <li class="ab2">&bull; seriously good coffee & bread &#45;</li>
-        <li class="ab2"><button type="button" onclick="window.open('https://join_form.php', 'window_name', 'width=430, height=500, location=no, status=no, scrollbars=yes');">Join us</button></li>
+        <li class="ab2"><button type="button" onclick="return false;">Join us</button></li>
         <li class="day ab3">TAPERED COFFEE WILL MAKE YOUR DAY
           <br>A SUPER-DUPER DAY : &#41;</li>
       </ul>
@@ -100,7 +106,7 @@
   <div id="coffee" class="wp1">
     <ul>
       <li class="bread">&bull; seriously good coffee & bread &#45;</li>
-      <li><button type="button" onclick="window.open('https://login_form.php', 'window_name', 'width=430, height=500, location=no, status=no, scrollbars=yes');">Join us</button></li>
+      <li><button type="button" onclick="return false;">Join us</button></li>
     </ul>
   </div>
   <div id="image">
@@ -126,7 +132,7 @@
       <img src="img/taper23.png" alt="갤러리사진1"></a></li>
     <li class="ab4 delay-05s"><a href="gallery.html">
       <img src="img/taper15.png" alt="갤러리사진2"></a></li>
-    <li class="ab4 delay-08s"><a href="gallery.html" target="_blank">
+    <li class="ab4 delay-08s"><a href="gallery.html">
       <img src="img/taper27.png" alt="갤러리사진3"></a></li>
     <li class="ab4 delay-1s"><a href="gallery.html">
       <img src="img/taper14.png" alt="갤러리사진4"></a></li>
@@ -142,17 +148,17 @@
   <i class="fa-solid fa-window-minimize"></i>
   <h2>Gallery</h2>
   <ul class="photo1">
-    <li class="wp4 delay-05s"><a href="gallery.html" target="_blank" >
+    <li class="wp4 delay-05s"><a href="gallery.html">
       <img src="img/taper23.png" alt="갤러리사진1"></a></li>
-    <li class="wp4"><a href="gallery.html" target="_blank">
+    <li class="wp4"><a href="gallery.html">
       <img src="img/taper15.png" alt="갤러리사진2"></a></li>
-    <li class="wp4 delay-08s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-08s"><a href="gallery.html">
       <img src="img/taper27.png" alt="갤러리사진3"></a></li>
-    <li class="wp4 delay-08s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-08s"><a href="gallery.html">
       <img src="img/taper14.png" alt="갤러리사진4"></a></li>
-    <li class="wp4 delay-1s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-1s"><a href="gallery.html">
       <img src="img/taper28.png" alt="갤러리사진5"></a></li>
-    <li class="wp4 delay-1s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-1s"><a href="gallery.html">
       <img src="img/taper22.png" alt="갤러리사진6"></a></li>
     </ul>
   </section>
@@ -162,23 +168,23 @@
   <i class="fa-solid fa-window-minimize"></i>
   <h2>Gallery</h2>
   <ul class="photo2">
-    <li class="wp4"><a href="gallery.html" target="_blank" >
+    <li class="wp4"><a href="gallery.html">
       <img src="img/taper23.png" alt="갤러리사진1"></a></li>
-    <li class="wp4"><a href="gallery.html" target="_blank">
+    <li class="wp4"><a href="gallery.html">
       <img src="img/taper15.png" alt="갤러리사진2"></a></li>
-    <li class="wp4"><a href="gallery.html" target="_blank">
+    <li class="wp4"><a href="gallery.html">
       <img src="img/taper27.png" alt="갤러리사진3"></a></li>
-    <li class="wp4 delay-05s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-05s"><a href="gallery.html">
       <img src="img/taper14.png" alt="갤러리사진4"></a></li>
-    <li class="wp4 delay-05s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-05s"><a href="gallery.html">
       <img src="img/taper28.png" alt="갤러리사진5"></a></li>
-    <li class="wp4 delay-05s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-05s"><a href="gallery.html">
       <img src="img/taper22.png" alt="갤러리사진6"></a></li>
-    <li class="wp4 delay-1s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-1s"><a href="gallery.html">
       <img src="img/taper16.png" alt="갤러리사진7"></a></li>
-    <li class="wp4 delay-1s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-1s"><a href="gallery.html">
       <img src="img/taper46.png" alt="갤러리사진8"></a></li>
-    <li class="wp4 delay-1s"><a href="gallery.html" target="_blank">
+    <li class="wp4 delay-1s"><a href="gallery.html">
       <img src="img/taper30.png" alt="갤러리사진9"></a></li>
   </ul>
 </section>
@@ -273,7 +279,7 @@
   <h2>Cafe Location</h2>
   <ul class="out">
     <li class="ab5 delay-02s"><img src="img/taper18.png" alt="매장사진"></li>
-    <li class="ab6 delay-02s">
+    <li class="ab7 delay-02s">
       <ul class="in">
         <li>1st&#46; Oksu 옥수</li>
         <li>2nd&#46; Deungchon 등촌</li>
@@ -283,7 +289,7 @@
       </ul>
     </li>
     <li>
-      <button type="button" class="ab6 delay-02s" onclick="location.href='store.html'">Get Direction</button></li>
+      <button type="button" class="ab7 delay-02s" onclick="location.href='store.html'">Get Direction</button></li>
   </ul>
 </section>
 
@@ -303,9 +309,7 @@
       </ul>
     </div>
 </section>
-<aside>
-  <a href="#" class="go-top">Go Top</a>
-</aside> 
+ 
 <footer>
   <div id="footer"><a href="https://www.instagram.com/taperedcoffee/"
     target="_blank">photo by TAPERED COFFEE INSTAGRAM</a></div>
