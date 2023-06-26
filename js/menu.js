@@ -14,7 +14,7 @@ $(function(){
             left: activeState ? "0%" : "-400px"}, 300);
         }
         
-        $("#ham-wrap").on("click",function(){
+        $(".hamburger").on("click",function(){
             $(".hamburger").toggleClass("open");
             $(" .menu").toggleClass("active");
             slideMenu();   
@@ -56,6 +56,24 @@ $(window).scroll(function() {
         $('aside').fadeOut();   // Else fade out the arrow
     }
 });
+
+/* tablet, pc 헤더 service -> scroll */
+
+$('.right li:nth-child(5) a').click(function(e) {
+  $('html, body').animate({scrollTop:3065 },700 ); //3065
+    e.preventDefault();
+});
+
+$('.right li:last-child a').click(function(e) {
+  $('html, body').animate({scrollTop: 5069}, 700);
+    e.preventDefault();
+});
+
+
+
+
+
+
   });
 
    
