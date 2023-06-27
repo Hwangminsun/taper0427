@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +27,7 @@
     <a href="#menu_wrap">&#187; 메뉴 바로가기</a>
     <a href="#one">&#187; 내용 바로가기 (모바일)</a> <!-- 모바일 -->
     <a href="#two">&#187; 내용 바로가기 (태블릿,PC용)</a> <!-- 태블릿, pc -->
-    
-    </div>
+  </div>
 
   <header class="cf">
     <!-- 모바일 햄버거 버튼 -->
@@ -42,25 +41,23 @@
     <!-- 태블릿, pc 버전 사용 -->
     <ul class="right">
         <li><a href="#" onclick="return false;"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-        <li><a href="#" onclick="return false;">Login</a></li>
-        <li><a href="#cafe_resize"><i class="fa-solid fa-map"></i></a></li>
+        <li><a href="php/login_form.php" >Login</a></li>
+        <li><a href="javascript:void(0)"><i class="fa-solid fa-file-pen"></i></li>
+        <li><a href="#contact">Service</a></li>
+        <li><a href="javascript:void(0)"><i class="fa-solid fa-map"></i></a></li>
         <li><a href="#cafe_resize">Location</a></li>
-        <li><a href="#contact"><i class="fa-solid fa-file-pen"></i></a></li>
-        <li><a href="#contact" onclick="return false;">Service</a></li>
     </ul>
   </header>
 
   <!-- 모바일 버전 사용 -->
   <div class="bottomNav" id="usp_sell">
     <ul>
-      <li><a href="#" class="current" onclick="return false;">
-        <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-      <li><a class="map" href="#cafeloca">
-        <i class="fa-solid fa-map"></i></a></li>
-      <li><a href="javascript:void(0)" ><i class="fa-solid fa-file-pen"></i></a></li>
-      <li><a href="login_form.php">Login</a></li>
-      <li><a href="#cafeloca">Location</a></li>
-      <li><a href="contactus.html">Service</a></li>
+      <li><a href="php/login_form.php" class="current"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+      <li><a class="map" href="#cafeloca"><i class="fa-solid fa-map"></i></a></li>
+      <li><a href="#contact"><i class="fa-solid fa-file-pen"></i></a></li>
+      <li><a href="php/login_form.php">Login</a></li>
+      <li><a href="javascript:void(0)">Location</a></li>
+      <li><a href="javascript:void(0)">Service</a></li>
     </ul>
   </div>
 
@@ -93,7 +90,7 @@
       <ul>
         <li class="ab2"><img src="img/taper-logo.png" alt="테이퍼드커피로고"></li>
         <li class="ab2">&bull; seriously good coffee & bread &#45;</li>
-        <li class="ab2"><button type="button" onclick="window.open('php/member_form.php', 'window_name','popup', 'width=430, height=515, location=no, status=no, scrollbars=no');">Join us</button></li>
+        <li class="ab2"><button type="button" onclick="location.href='php/member_form.php'">Join us</button></li>
         <li class="day ab3">TAPERED COFFEE WILL MAKE YOUR DAY
           <br>A SUPER-DUPER DAY : &#41;</li>
       </ul>
@@ -106,7 +103,7 @@
   <div id="coffee" class="wp1">
     <ul>
       <li class="bread">&bull; seriously good coffee & bread &#45;</li>
-      <li><button type="button" onclick="window.open('https://hwangminsun.github.io/taper0427/php/member_form.php', 'window_name','popup', 'left=100 , top=100, width=430, height=500, location=no, status=no, scrollbars=no');">Join us</button></li>
+      <li><button type="button" onclick="location.href='php/member_form.php'">Join us</button></li>
     </ul>
   </div>
   <div id="image">
