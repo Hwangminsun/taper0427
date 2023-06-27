@@ -9,10 +9,6 @@ a {
   color:#666; 
 }
 
-/* html {
-  width:100%; 
-  height:100%; } */
-
 body {
   font-size:0.8rem; 
   color:#666; 
@@ -244,7 +240,6 @@ section {
   font-size: 0.9rem;
   letter-spacing: 1px;
   /* border: 1px solid orange; */
-
 }
 
 h2 {
@@ -294,107 +289,98 @@ h2 {
   
 #join_mem {
     width: 430px;
-    min-height: 420px;
+    /* min-height: 420px; */
     /* border:1px solid gray; */
     margin:10px auto;
-    /* padding-top:20px; */
+    padding-bottom:10px;
   }
 
 #join_mem #form_join {
     margin: 0 auto;
     width: 415px;
-    height: 322px;
+    /* height: 322px; */
     /* border: solid 1px red; */
 }  
 
-#join_mem #form_join #join2 {
+#join_mem #form_join #join {
 	width: 80%;
-	height: 282px;
+	/* height: 282px; */
   margin: auto;
   margin-top: 15px;
+  
   /* border: solid 1px blue; */
 }
 
-#join_mem #form_join #join2 li {
+#join_mem #form_join #join li {
   width: 100%;
   height: 47px; 
   /* padding-left: 8px;
   padding-top: 6px; */
-  border-bottom: solid 1px #e4e4e4;
+  border: solid 1px #e4e4e4; /* 지우지 말기 */
 }
 
-#join_mem #form_join #join2 #id1 { /* id */
-	float:left;
-  width: 70%;
-  height: 100%;
-  /* border: 1px solid orange; */
+#join_mem #form_join #join li:first-child {
+  border-bottom: none;
 }
 
-#join_mem #form_join #join2 #id2 { /* id 중복확인 버튼 */
-	float:left;
-	width: 30%;
-  height: 47px;
-  line-height: 42px;
-  /* border-bottom: 1px solid #e4e4e4; */
-}
-
-#join2 #id2 > button {
-  margin-left: 9px;
-  width: 81%;
-  height: 29px;
-  border: none;
-  background: #e4e4e4;
-  font-size: 0.77rem;
-  color:#666;
-  cursor: pointer;
-  border-radius: 3px;
-  letter-spacing: 0.6px;
-  /* font-weight: bold; */
-  }
-
-#join2 #id2 > button:hover {
-  color: #e4e4e4;
-  background: #666;
-}  
-
-#join_mem #form_join #join2 input {
+#join_mem #form_join #join input {
   width: 100%;
   height: 100%;
   border: none;
   outline: none; 
 }
 
-#join_mem #form_join #must {
-	padding-top: 10px;
-  margin-left: 45px;
-  font-size: 0.8rem;
-  color: #333;
-  font-weight: bold;
-}
-
-#join_mem #button {
+#join_mem #button_log {
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 10%;
+  margin-bottom: 20%;
   /* border: 1px solid pink; */
 }
 
-#join_mem #button button {
+#join_mem #button_log button {
   width: 105px;
   height: 44px;
   line-height: 43px;
-  background: #1a25ab;
-  color:#f3e9e9;
+  background: #666;
+  color:#e4e4e4;
   cursor: pointer;
   border: none;
   border-radius: 3px;
   font-size: 0.9rem;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.8px;
   font-weight: bold;
 }
 
-#join_mem #button button:hover {
-  background:#0c146b; 
-  color:#cecccc;
+#join_mem #button_log button:hover {
+  background:#b4b4b4; 
+  color:#666;
+}
+
+hr {
+  width: 80%;
+}
+
+.member_find {
+  width: 80%;
+  margin: 0 auto;
+  font-size:0.8rem;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #000; */
+}
+
+.member_find li {
+  width: 50%;
+}
+
+.member_find .find {
+  text-align: right;
+  /* border: 1px solid blue; */
+}
+
+.member_find a {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 /* 하단 푸터 */

@@ -712,7 +712,7 @@ header h1 a img {width:19%;}
 /* 갤러리 슬릭 */
 
 #gallery {
-  /* border: 3px solid pink; */
+  border: 3px solid pink;
   padding-bottom: 20px;
  }
 
@@ -729,6 +729,7 @@ header h1 a img {width:19%;}
   left: 9%;
   width: 34.5px;
   height: 34.5px;
+  cursor: pointer;
  } 
 
  .btn img {
@@ -776,7 +777,7 @@ header h1 a img {width:19%;}
   width: 73%;
   height: 100%;
   padding-top: 0;
-  /* border: 3px solid #000; */
+  border: 3px solid #000;
 }
 
 .thumbs_up {
@@ -825,16 +826,16 @@ header h1 a img {width:19%;}
   width: 48%;
   height: 71.4%;
   margin: 0 auto;
-  padding: 5.9% 0 0 0;
+  padding: 0 0 0 0;
   /* padding-top: 3%; */
-  /* border: 2px solid orange; */
+  border: 2px solid orange;
 }  
 
 .slick2_tab li {
   width: 100%;
   padding: 0;
   margin: 0;
-  /* border: 2px solid pink; */
+  border: 2px solid pink;
 }
 
 .slick2_tab li img {
